@@ -1,3 +1,5 @@
+/*****************TAG SELECTORS*****************/
+
 body {
    background-color: black;
 }
@@ -12,4 +14,13 @@ p {
 
 td {
    color: white;
+}
+
+/*****************CLASS SELECTORS*****************/
+
+.resized-artwork {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
 }
