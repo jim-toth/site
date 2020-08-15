@@ -20,6 +20,13 @@ var faviconId = "gondola-favicon-link";
     var head = doc.getElementsByTagName("head")[0];
     var loopTimeout = null;
     var changeFavicon = function(iconURL) {
+        // var newLink = doc.createElement("link");
+        // newLink.type = "image/x-icon";
+        // newLink.rel = "icon";
+        // newLink.href = iconURL;
+        // newLink.id = faviconId;
+        // doc.getElementById(faviconId).remove()
+        // head.appendChild(newLink);
         doc.getElementById(faviconId).href = iconURL;
     };
 
